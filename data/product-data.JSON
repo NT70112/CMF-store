@@ -1,0 +1,112 @@
+{
+  "00": {
+    "data": {
+      "name": "Nothing Headphones",
+      "image": [
+        "image/image 2 no bg.png",
+        "image/2.jpg"
+      ],
+      "description": "Nothing Headphone (1) is an over-ear wireless headphone with Nothing's signature transparent design. Its 40 mm dynamic drivers, adaptive active noise cancellation, and transparency mode help tailor the listening experience to your surroundings. Hi-Res Audio Wireless and LDAC support enable high-quality music playback. Enjoy up to 80 hours of playback without ANC. The headphones feature microphones for calls and physical controls. Available in black and white.",
+      "characteristics": "Type: Over-ear wireless headphones\nDrivers: 40 mm dynamic + 8 mm planar\nFrequency response: 20 Hz-40 kHz\nNoise cancellation: Hybrid adaptive ANC, up to 42 dB\nTransparency mode: Yes\nBluetooth: 5.3\nAudio codecs: AAC, SBC, LDAC\nBattery life: Up to 80 hours without ANC\nConnectivity: Bluetooth, USB-C, 3.5 mm\nProtection rating: IP52\nWeight: 329 g\nColors: Black, white.",
+      "shortCharacteristics": "Over-ear wireless Nothing Headphone (1) headphones with 40 mm dynamic drivers, adaptive active noise cancellation, and transparency mode.",
+      "shortDescription": "Hi-Res Audio Wireless and LDAC support. Up to 80 hours of playback without active noise cancellation.",
+      "price": "299"
+    }
+  },
+  "01": {
+    "data": {
+      "name": "Headphone 1 Pro",
+      "image": [
+        "image/image 3.png",
+        "image/4.jpg",
+        "image/5.jpg"
+      ],
+      "description": "Headphone 1 Pro is an over-ear headphone for listening to music at home or on the go. Its minimalist design continues the visual style of the Nothing lineup. Detailed information about this model's features and package contents is not available.",
+      "characteristics": "Category: Headphones\nModel: Headphone 1 Pro\nCatalog price: $199\nTechnical specifications: Not available.",
+      "shortCharacteristics": "Over-ear Headphone 1 Pro with a minimalist Nothing-inspired design for music at home or on the go.",
+      "shortDescription": "Listed at $199. Details about connectivity, battery life, and package contents are not available.",
+      "price": "199"
+    }
+  },
+  "02": {
+    "data": {
+      "name": "Ecosystem Bundle",
+      "image": [
+        "image/image 6.png",
+        "image/3.jpg"
+      ],
+      "description": "Ecosystem Bundle is a Nothing device bundle featured in the product catalog. It brings products from the brand's ecosystem together in one offer. The exact bundle contents and detailed specifications of the included devices are not available.",
+      "characteristics": "Category: Device bundle\nBundle: Ecosystem Bundle\nCatalog price: $149\nContents and technical specifications: Not available.",
+      "shortCharacteristics": "Ecosystem Bundle brings Nothing devices together in one package.",
+      "shortDescription": "Listed at $149. The exact bundle contents and device specifications are not available.",
+      "price": "149"
+    }
+  },
+  "03": {
+    "data": {
+      "name": "Master Headphones",
+      "image": [
+        "image/image 4.png"
+      ],
+      "description": "Master Headphones are over-ear headphones with a distinctive design and dedicated controls. They are suited to listening to music and everyday use. Details about connectivity, sound, and battery life are not available.",
+      "characteristics": "Category: Over-ear headphones\nModel: Master Headphones\nCatalog price: $399\nConnectivity, battery life, and audio specifications: Not available.",
+      "shortCharacteristics": "Over-ear Master Headphones with a distinctive design and dedicated controls.",
+      "shortDescription": "For music and everyday use. Listed at $399; technical details are not available.",
+      "price": "399"
+    }
+  },
+  "04": {
+    "data": {
+      "name": "Nothing Headphones",
+      "image": [
+        "image/image 2 no bg.png",
+        "image/image 2.png",
+        "image/image 3.png"
+      ],
+      "description": "Nothing Headphone (1) is an over-ear wireless headphone with Nothing's signature transparent design. Its 40 mm dynamic drivers, adaptive active noise cancellation, and transparency mode help tailor the listening experience to your surroundings. Hi-Res Audio Wireless and LDAC support enable high-quality music playback. Enjoy up to 80 hours of playback without ANC. The headphones feature microphones for calls and physical controls. Available in black and white.",
+      "characteristics": "Type: Over-ear wireless headphones\nDrivers: 40 mm dynamic + 8 mm planar\nFrequency response: 20 Hz-40 kHz\nNoise cancellation: Hybrid adaptive ANC, up to 42 dB\nTransparency mode: Yes\nBluetooth: 5.3\nAudio codecs: AAC, SBC, LDAC\nBattery life: Up to 80 hours without ANC\nConnectivity: Bluetooth, USB-C, 3.5 mm\nProtection rating: IP52\nWeight: 329 g\nColors: Black, white.",
+      "shortCharacteristics": "Over-ear wireless Nothing Headphone (1) headphones with 40 mm dynamic drivers, adaptive active noise cancellation, and transparency mode.",
+      "shortDescription": "Hi-Res Audio Wireless and LDAC support. Up to 80 hours of playback without active noise cancellation.",
+      "price": "299"
+    }
+  },
+  "05": {
+    "data": {
+      "name": "Headphone 1 Pro",
+      "image": [
+        "image/image 3.png"
+      ],
+      "description": "Headphone 1 Pro is an over-ear headphone for listening to music at home or on the go. Its minimalist design continues the visual style of the Nothing lineup. Detailed information about this model's features and package contents is not available.",
+      "characteristics": "Category: Headphones\nModel: Headphone 1 Pro\nCatalog price: $199\nTechnical specifications: Not available.",
+      "shortCharacteristics": "Over-ear Headphone 1 Pro with a minimalist Nothing-inspired design for music at home or on the go.",
+      "shortDescription": "Listed at $199. Details about connectivity, battery life, and package contents are not available.",
+      "price": "199"
+    }
+  },
+  "06": {
+    "data": {
+      "name": "Ecosystem Bundle",
+      "image": [
+        "image/image 6.png"
+      ],
+      "description": "Ecosystem Bundle is a Nothing device bundle featured in the product catalog. It brings products from the brand's ecosystem together in one offer. The exact bundle contents and detailed specifications of the included devices are not available.",
+      "characteristics": "Category: Device bundle\nBundle: Ecosystem Bundle\nCatalog price: $149\nContents and technical specifications: Not available.",
+      "shortCharacteristics": "Ecosystem Bundle brings Nothing devices together in one package.",
+      "shortDescription": "Listed at $149. The exact bundle contents and device specifications are not available.",
+      "price": "149"
+    }
+  },
+  "07": {
+    "data": {
+      "name": "Master Headphones",
+      "image": [
+        "image/image 4.png"
+      ],
+      "description": "Master Headphones are over-ear headphones with a distinctive design and dedicated controls. They are suited to listening to music and everyday use. Details about connectivity, sound, and battery life are not available.",
+      "characteristics": "Category: Over-ear headphones\nModel: Master Headphones\nCatalog price: $399\nConnectivity, battery life, and audio specifications: Not available.",
+      "shortCharacteristics": "Over-ear Master Headphones with a distinctive design and dedicated controls.",
+      "shortDescription": "For music and everyday use. Listed at $399; technical details are not available.",
+      "price": "399"
+    }
+  }
+}

@@ -1,0 +1,314 @@
+/* -------------------------О нас----------------------------- */
+
+.about-page {
+    min-height: 2382px;
+    padding-top: 39px;
+}
+
+.about-page__title {
+    margin-left: 42px;
+}
+
+.about-page__stories {
+    margin-top: 15px;
+}
+
+.about-story {
+    display: grid;
+    position: relative;
+}
+
+.about-story__image {
+    position: relative;
+    margin: 0;
+}
+
+.about-story__image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-story__cross {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    overflow: visible;
+    fill: none;
+    stroke: #1a1a1a;
+    stroke-width: 0.7;
+}
+
+.about-story__content {
+    min-width: 0;
+}
+
+.about-story__heading {
+    display: grid;
+    grid-template-columns: 40px minmax(0, 1fr);
+    column-gap: 20px;
+}
+
+.about-story__number {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.about-story__title {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.about-story__copy {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: justify;
+    max-width: 420px;
+}
+
+.slider-about {
+    margin-top: 100px;
+}
+
+.slider-about_inner {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-about_arrows {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 24px;
+}
+
+.slider-about_arrow-left,
+.slider-about_arrow-rigth {
+    background: none;
+}
+
+.slider-about_arrow-left svg,
+.slider-about_arrow-rigth svg {
+    width: 24px;
+    height: 24px;
+}
+
+.slider-about_image-collection {
+    display: flex;
+    width: 100%;
+    gap: 16px;
+    transition: transform 0.8s ease;
+}
+
+.slider-about_image-collection img {
+    flex: 0 0 364px;
+    width: 0;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* -------------------------Модификаторы----------------------------- */
+
+.about-story--intro {
+    grid-template-columns: 1fr 62%;
+    min-height: 562px;
+}
+
+.about-story--rebellion {
+    grid-template-columns: 1fr 42%;
+    min-height: 362px;
+}
+
+.about-story--design {
+    grid-template-columns: 1fr 56%;
+    min-height: 501px;
+    margin-bottom: 180px;
+}
+
+.about-story__image--portrait {
+    width: 321px;
+    height: 357px;
+    margin: 114px 0 0 42px;
+}
+
+.about-story__image--landscape {
+    width: 400px;
+    height: 270px;
+    margin-top: -14px;
+}
+
+.about-story__image--portrait-large {
+    width: 401px;
+    height: 501px;
+    margin-left: 42px;
+}
+
+.about-story__cross--top {
+    top: -15px;
+    left: -15px;
+}
+
+.about-story__cross--bottom {
+    right: -15px;
+    bottom: -15px;
+}
+
+.about-story__cross--bottom-left {
+    bottom: -15px;
+    left: -15px;
+}
+
+.about-story__copy--intro {
+    margin-top: 32px;
+    margin-left: 60px;
+}
+
+.about-story__copy--rebellion {
+    width: 420px;
+    margin-top: 27px;
+    margin-left: 60px;
+}
+
+.about-story__copy--design {
+    width: 429px;
+    margin-top: 27px;
+    margin-left: 60px;
+}
+
+.about-story--rebellion .about-story__content {
+    padding-left: 42px;
+}
+
+.about-story--design .about-story__content {
+    padding-top: 166px;
+    padding-left: 70px;
+}
+
+.not-active {
+    pointer-events: none;
+}
+
+.not-active svg path {
+    fill: #777;
+}
+
+@media (max-width: 1075px) {
+    .about-page__title {
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-page {
+        min-height: 0;
+        padding-top: 30px;
+        padding-bottom: 80px;
+    }
+
+    .about-page__title {
+        margin-left: 0;
+    }
+
+    .about-page__stories {
+        margin-top: 56px;
+    }
+
+    .about-story {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        min-height: 0;
+        margin-bottom: 72px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-story__title {
+        font-size: clamp(24px, 2vw, 26px);
+    }
+
+    .about-story__content {
+        width: min(100%, 489px);
+        padding: 0;
+    }
+
+    .about-story--rebellion .about-story__content,
+    .about-story--design .about-story__content {
+        padding: 0;
+    }
+
+    .about-story__heading {
+        width: min(100%, 420px);
+        margin: 0 auto;
+    }
+
+    .about-story__copy--intro,
+    .about-story__copy--rebellion,
+    .about-story__copy--design {
+        width: min(100%, 300px);
+        margin: 24px auto 0;
+    }
+
+    .about-story--intro .about-story__content {
+        order: 1;
+    }
+
+    .about-story--intro .about-story__image,
+    .about-story--rebellion .about-story__image {
+        order: 2;
+    }
+
+    .about-story--design .about-story__image {
+        order: 1;
+    }
+
+    .about-story--design .about-story__content {
+        order: 2;
+    }
+
+    .about-story__image--portrait,
+    .about-story__image--landscape,
+    .about-story__image--portrait-large {
+        margin: 0;
+    }
+
+    .about-story__image--portrait-large {
+        display: none;
+    }
+
+    .about-story__copy p {
+        width: auto;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 680px) {
+    .slider-about_image-collection img {
+        flex: 0 0 100%;
+    }
+
+}
+
+@media (max-width: 520px) {
+    .about-story__content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .about-story__heading {
+        width: min(100%, 300px);
+        margin: 0 auto;
+    }
+
+        /* .about-story__image--landscape {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+
+}
